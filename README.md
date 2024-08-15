@@ -10,5 +10,5 @@ Technology Used:
 
 HTML5
 CSS3 (including Media Queries)
-JavaScript
+
 
