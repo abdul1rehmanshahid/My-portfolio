@@ -59,3 +59,117 @@ p{
     width:450px;
     font-family: "Ubuntu Mono";
 }
+
+/* Media Queries for responsiveness */
+
+
+@media (max-width: 1024px) {
+    .container {
+        width: 80%;
+        height: auto;
+        padding: 20px;
+    }
+
+    .container1 {
+        width: 250px;
+        height: 400px;
+        top: 50%;
+        left: 5%;
+        transform: translateY(-50%);
+    }
+
+    h1 {
+        margin-left: 0;
+        font-size: 2rem;
+    }
+
+    .info {
+        position: relative;
+        width: 100%;
+        margin-top: 20px;
+        left: 0;
+        top: 0;
+        text-align: center;
+    }
+
+    p {
+        font-size: 20px;
+        line-height: 26px;
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+        padding: 15px;
+    }
+
+    .container1 {
+        position: relative;
+        width: 200px;
+        height: 350px;
+        margin: 20px auto;
+        top: 0;
+        left: 0;
+        transform: none;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    .info {
+        width: 100%;
+        position: relative;
+        margin-top: 10px;
+        left: 0;
+        top: 0;
+        text-align: center;
+    }
+
+    p {
+        font-size: 18px;
+        line-height: 24px;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        width: 95%;
+        padding: 10px;
+        height: auto;
+    }
+
+    .container1 {
+        position: relative;
+        width: 150px;
+        height: 300px;
+        margin: 20px auto;
+        top: 0;
+        left: 0;
+        transform: none;
+    }
+
+    h1 {
+        font-size: 1.2rem;
+        margin-left: 0;
+    }
+
+    .info {
+        width: 100%;
+        text-align: center;
+        margin-top: 10px;
+        position: relative;
+        top: 0;
+        left: 0;
+    }
+
+    p {
+        font-size: 16px;
+        line-height: 22px;
+        width: 100%;
+    }
+}
+
+
