@@ -12,5 +12,3 @@ HTML5
 CSS3 (including Media Queries)
 JavaScript
 
-Getting Started:
-To view the project, simply open the index.html file in your browser.
